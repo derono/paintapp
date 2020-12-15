@@ -1,6 +1,7 @@
 import React from "react";
 import Apartment from "./Apartment";
 
+// Laskukaavat
 const HousingCooperative = ({ apartments = [], paint }) => {
 
     function getTotalPrice(apartments, paint) {
