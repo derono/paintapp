@@ -1,6 +1,6 @@
 import React from "react";
 import Room from "./Room";
-// testi kommentti
+
 // Tässä voi tehdä "asunto" elementin eri koikoisille asunnoille.
 const Apartment = ({ name, rooms, paint }) => {
 
