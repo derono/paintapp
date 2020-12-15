@@ -1,6 +1,8 @@
 import React from "react";
 import Room from "./Room";
 
+// aparments.json tiedostossa voi lisätä erikokoisia asuntoja
+
 const Apartment = ({ name, rooms, paint }) => {
 
     function getTotalPrice(rooms, paint) {
