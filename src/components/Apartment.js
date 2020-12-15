@@ -1,7 +1,7 @@
 import React from "react";
 import Room from "./Room";
 
-// Tässä voi tehdä "asunto" elementin erikoikoisille asunnoille.
+// Tässä voi tehdä "asunto" elementin eri koikoisille asunnoille.
 const Apartment = ({ name, rooms, paint }) => {
 
     function getTotalPrice(rooms, paint) {

@@ -1,5 +1,5 @@
 {
-  "name": "harjoitustyo",
+  "name": "paintapp",
   "version": "1.0.0",
   "description": "App for counting apartment ",
   "main": "index.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/derono/harjoitustyo"
+    "url": "https://github.com/derono/paintapp"
   },
   "author": "Roni Kurjenrauma <roni.kurjenrauma@edu.turkuamk.fi>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/derono/harjoitustyo"
+    "url": "https://github.com/derono/paintapp"
   },
-  "homepage": "https://github.com/derono/harjoitustyo",
+  "homepage": "https://github.com/derono/paintapp",
   "dependencies": {
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -31,6 +31,6 @@
     "css-loader": "^3.5.3",
     "style-loader": "^1.2.1",
     "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.11"
+    "webpack-cli": "^3.3.12"
   }
 }
