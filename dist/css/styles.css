@@ -20,10 +20,15 @@ h3 {
 
 h4 {
     font-size: larger;
+    color:#ffff00;
 }
 
 h5 {
     font-size: medium;
+}
+
+h6 {
+    font-size: larger;
 }
 /*
     max-width: fit-content;
