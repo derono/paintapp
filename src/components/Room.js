@@ -1,5 +1,6 @@
 import React from "react";
 
+// Laskukaavoja
 const Room = ( { name, size, typeFactor, paintName, paintPrice, 
     paintCoverage, paintCount, } ) => {
 
@@ -10,7 +11,7 @@ const Room = ( { name, size, typeFactor, paintName, paintPrice,
     return (
         <div>
             <p>
-                {name}, tilavuudeltaan {size}m<sup>2</sup> maalaamiseen tarvitaan {Math.round(totalLitersNeeded * 100) / 100} litraa.
+                <h5>{name}</h5> Tilavuus: {size}m<sup>2</sup> <br></br> Tarvittava maali: {Math.round(totalLitersNeeded * 100) / 100} litraa.
             </p>
             <p className="costParagraph">Hinta: {Math.round((totalCost * 100) / 100)}€</p>
             <br></br>

@@ -47,10 +47,10 @@ const Apartment = ({ name, rooms, paint }) => {
                         return <Room key={i} {...room} {...paint} />
                     })}
                     <p><strong>
-                        Asunnon maalauksen hinta: {Math.round((getTotalPrice(rooms, paint) * 100) / 100)}€
+                        <h4>Asunnon maalauksen hinta: {Math.round((getTotalPrice(rooms, paint) * 100) / 100)}€</h4>
                     </strong></p>
                     <p><strong>
-                        Tarvittava maali: {Math.round((getTotalLiters(rooms, paint) * 100) / 100)} litraa
+                        <h4>Tarvittava maali: {Math.round((getTotalLiters(rooms, paint) * 100) / 100)} litraa</h4>
                     </strong></p>
                 </div>
             </fieldset>

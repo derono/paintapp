@@ -14,11 +14,17 @@ h2 {
     color: #ffff00;
 }
 
-
 h3 {
     background: #ffff00;
 }
 
+h4 {
+    font-size: larger;
+}
+
+h5 {
+    font-size: medium;
+}
 /*
     max-width: fit-content;
     background: #ffff00;
