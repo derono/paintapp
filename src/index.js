@@ -11,6 +11,7 @@ const formReducer = (state, event) => {
     }
 }
 
+//Lomake
 function Form() {
     const [formData, setFormData] = useReducer(formReducer, {});
 

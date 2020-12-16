@@ -1,14 +1,8 @@
 import React from "react";
 
-<<<<<<< HEAD
-// Laskukaavoja
-const Room = ({ name, size, typeFactor, paintName, paintPrice,
-    paintCoverage, paintCount, }) => {
-=======
 // Laskukaavoja. Laskettu tilavuus, tarvittava maali ja hinta.
 const Room = ( { name, size, typeFactor, paintName, paintPrice, 
     paintCoverage, paintCount, } ) => {
->>>>>>> 15c66f0fc1a866117f70830bb686c72bdc730aa8
 
     var totalSquareMeters = (size * typeFactor) * paintCount;
     var totalLitersNeeded = totalSquareMeters / paintCoverage;
