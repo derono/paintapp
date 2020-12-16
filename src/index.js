@@ -50,7 +50,7 @@ function Form() {
                 </label>
                 <br></br>
                 <label>
-                    <p>Riittoisuus (m<sup>2</sup>/l): </p>
+                    <p>Maalin riittoisuus (m<sup>2</sup>/l): </p>
                     <input name="coverage" required="required" onChange={handleChange} />
                 </label>
                 <br></br>
