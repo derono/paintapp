@@ -1,6 +1,6 @@
 import React from "react";
 
-// Laskukaavoja
+// Laskukaavoja. Laskettu tilavuus, tarvittava maali ja hinta.
 const Room = ( { name, size, typeFactor, paintName, paintPrice, 
     paintCoverage, paintCount, } ) => {
 
