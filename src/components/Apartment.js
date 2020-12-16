@@ -41,7 +41,7 @@ const Apartment = ({ name, rooms, paint }) => {
         <div className="apartmentDiv">
             <fieldset className="apartmentFieldset">
                 <h3>{name} {getSquareMeters(rooms)}m<sup>2</sup></h3>
-                <h4>Huoneet:</h4>
+                <h6>Huoneet:</h6>
                 <div className="rooms">
                     {rooms.map((room, i) => {
                         return <Room key={i} {...room} {...paint} />
