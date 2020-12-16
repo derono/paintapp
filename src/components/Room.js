@@ -1,8 +1,8 @@
 import React from "react";
 
 // Laskukaavoja
-const Room = ( { name, size, typeFactor, paintName, paintPrice, 
-    paintCoverage, paintCount, } ) => {
+const Room = ({ name, size, typeFactor, paintName, paintPrice,
+    paintCoverage, paintCount, }) => {
 
     var totalSquareMeters = (size * typeFactor) * paintCount;
     var totalLitersNeeded = totalSquareMeters / paintCoverage;
