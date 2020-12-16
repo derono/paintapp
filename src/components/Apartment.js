@@ -3,6 +3,7 @@ import Room from "./Room";
 
 // aparments.json tiedostossa voi lisätä erikokoisia asuntoja
 
+// Laskukaavoja. Laskettu asuntojen maalauksen hinta ja maalin tarve.
 const Apartment = ({ name, rooms, paint }) => {
 
     function getTotalPrice(rooms, paint) {
